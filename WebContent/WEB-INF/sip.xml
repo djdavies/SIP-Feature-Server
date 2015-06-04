@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sip-app>
+ 
+	<app-name>FeatureServer</app-name>
+	<display-name>FeatureServer</display-name>
+	<description>FeatureServer</description>
+	
+	<main-servlet>
+		FeatureServer
+	</main-servlet>
+
+	<servlet>
+		<servlet-name>FeatureServer</servlet-name>
+		<display-name>FeatureServer</display-name>
+		<description>FeatureServer</description>
+		<servlet-class>
+			org.example.servlet.sip.FeatureServer
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+</sip-app>
